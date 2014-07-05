@@ -27,9 +27,6 @@
 
   <remote  name="private"
            fetch="ssh://git@bitbucket.org/aospal/" />
-           
-  <remote  name="uber"
-           fetch="https://github.com/UBERUTILS" />
 
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod/" />
