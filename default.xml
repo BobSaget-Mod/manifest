@@ -16,23 +16,14 @@
   <remote  name="sm"
            fetch="https://github.com/SaberMod/" />
 
-  <remote  name="pac"
-           fetch="https://github.com/PAC-man/" />
-
   <remote  name="omni"
            fetch="https://github.com/omnirom/" />
-
-  <remote  name="slim"
-           fetch="https://github.com/SlimRoms/" />
 
   <remote  name="github"
            fetch="https://github.com/" />
 
   <remote  name="blobs"
            fetch="https://github.com/ThankYouMario/" />
-
-  <remote  name="muppets"
-           fetch="https://github.com/TheMuppets/" />
 
   <remote  name="private"
            fetch="ssh://git@bitbucket.org/aospal/" />
