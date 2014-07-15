@@ -20,7 +20,7 @@
            fetch="https://github.com/" />
            
   <remote  name="bb"
-           fetch="https://bitbucket.org/"
+           fetch="https://bitbucket.org/" />
 
   <remote  name="blobs"
            fetch="https://github.com/ThankYouMario/" />
