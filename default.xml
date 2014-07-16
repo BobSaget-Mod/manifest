@@ -25,7 +25,7 @@
   <remote  name="blobs"
            fetch="https://github.com/ThankYouMario/" />
 
-  <default revision="refs/tags/android-4.4.4_r1"
+  <default revision="refs/tags/android-4.4.4_r2"
            remote="aosp"
            sync-c="true"
            sync-f="true"
