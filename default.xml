@@ -278,7 +278,7 @@
   <project path="frameworks/opt/net/voip" name="frameworks_opt_net_voip" remote="sd" revision="kitkat-wip" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="sd" revision="kitkat-wip" />
+  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" />
   <project path="frameworks/rs" name="frameworks_rs" remote="sd" revision="kitkat-wip" />
@@ -405,5 +405,9 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
+
+  <project path="vendor/sd" name="android_vendor_sd" remote="sd" revision="kitkat" >
+    <copyfile src="build.sh" dest="build.sh" />
+  </project>
 
 </manifest>
