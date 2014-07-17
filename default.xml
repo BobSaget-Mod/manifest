@@ -38,13 +38,13 @@
   </project>
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="art" remote="sd" revision="kitkat" />
-  <project path="bionic" name="bionic" remote="sd" revision="kitkat-wip" />
+  <project path="art" name="platform/art" />
+  <project path="bionic" name="platform/bionic" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts" />
-  <project path="dalvik" name="dalvik" remote="sd" revision="kitkat-wip" />
+  <project path="dalvik" name="dalvik" remote="sm" revision="kitkat-wip" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
