@@ -31,7 +31,7 @@
            sync-f="true"
            sync-j="4" />
 
-  <project path="manifest" name="manifest" remote="sd" revision="kitkat-wip" />
+  <project path="manifest" name="manifest" remote="sm" revision="kitkat-wip" />
 
   <project path="build" name="build" remote="sd" revision="kitkat-wip" >
     <copyfile src="core/root.mk" dest="Makefile" />
