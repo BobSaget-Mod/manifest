@@ -16,6 +16,9 @@
   <remote  name="private"
            fetch="ssh://git@bitbucket.org/aospal/" />
 
+  <remote  name="aospal"
+           fetch="https://github.com/AOSPAL/" />
+
   <remote  name="github"
            fetch="https://github.com/" />
            
